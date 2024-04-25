@@ -1,5 +1,3 @@
-var hello = true;
-
 function greetName(name: string) {
 	console.log("Hi, " + name.toUpperCase() + "!");
 }
