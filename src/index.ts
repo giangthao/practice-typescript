@@ -1,4 +1,7 @@
-function greetName(name: string) {
+function greetName(name = "anonymos") {
+	if (name) {
+		console.log(name as string);
+	}
 	console.log("Hi, " + name.toUpperCase() + "!");
 }
 
