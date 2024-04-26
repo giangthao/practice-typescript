@@ -8,6 +8,8 @@
 		"sourceMap": true,
 		"strict": true,
 		"strictFunctionTypes": false,
-		"target": "ES2021"
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": true
 	}
 }
