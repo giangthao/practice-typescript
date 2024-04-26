@@ -1,4 +1,4 @@
-name: build
+name: Build
 
 on:
   push:
@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/prepare
-      - run: yarn build
+      - run: npm run build
